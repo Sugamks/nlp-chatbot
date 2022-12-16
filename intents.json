@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "service",
+      "patterns": [
+        "Which services do you provide?",
+        "What kinds of services are there?",
+        "What do you offer?"
+      ],
+      "responses": [
+        "We provide services for schools and other educational institutions",
+        "We have full fledged software for educational institutes"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "ufees",
+      "patterns": [
+        "Unable to pay fees",
+        "I cant pay the fees"
+      ],
+      "responses": [
+        "We have received your complaint, our executive will reach you soon.",
+        "Sorry for the inconvinence, we will get back to you"
+      ]
+    },
+    {
+      "tag": "feesp",
+      "patterns": [
+        "fees paid but receipt not generated",
+        "receipt is not coming",
+        "money debited but not reflected in the payment page"
+      ],
+      "responses": [
+        "We have received your complaint about debited money, our executive will reach you soon.",
+        "Sorry for the inconvinence, we will get back to you and try to resolve the issue."
+      ]
+    }
+  ]
+}
