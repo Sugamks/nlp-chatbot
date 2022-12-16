@@ -108,7 +108,7 @@ for epoch in range(num_epochs):
         optimizer.step() # Performs a single optimization step.
         
     if (epoch+1) % 100 == 0:
-        print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
+        print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')# print epoch of values 100,200,....,1000
 
 
 print(f'final loss: {loss.item():.4f}')
