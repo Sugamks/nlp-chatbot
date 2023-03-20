@@ -1,2 +1,2 @@
 # nlp-chatbot
-This is a Chatbot that uses Natural Language Processing and Deep Learning Models.
+A chatbot which uses NLP to reply to the questions. In future there will be integration of Database also.

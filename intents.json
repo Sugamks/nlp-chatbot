@@ -1,0 +1,111 @@
+{
+  "intents": [
+   {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "service",
+      "patterns": [
+        "Which services do you provide?",
+        "What kinds of services are there?",
+        "What do you offer?"
+      ],
+      "responses": [
+        "We provide services for schools and other educational institutions",
+        "We have full fledged software for educational institutes"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "ufees",
+      "patterns": [
+        "Unable to pay fees",
+        "I cant pay the fees"
+      ],
+      "responses": [
+        "We have received your complaint, our executive will reach you soon.",
+        "Sorry for the inconvinence, we will get back to you"
+      ]
+    },
+    {
+      "tag": "feesp",
+      "patterns": [
+        "fees paid but receipt not generated",
+        "receipt is not coming",
+        "money debited but not reflected in the payment page"
+      ],
+      "responses": [
+        "We have received your complaint about debited money, our executive will reach you soon.",
+        "Sorry for the inconvinence, we will get back to you and try to resolve the issue."
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "what products do you have",
+        "What do you offer?",
+        "what are available",
+        "how many products do you have",
+        "What products or services do you offer?"
+      ],
+      "responses": [
+        "Our product offerings are focused on providing solutions for school management . We offer products in a category of Education",
+        "Our product offerings are constantly evolving to meet the changing needs and preferences of educators and learners. We are committed to staying ahead of the curve and offering the latest and most effective products on the market."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is the software currently available for purchase?",
+        "When will the next version of the software be released?",
+        "Are there any licensing restrictions or limitations for the software?",
+        "Is the software available for a free trial before purchase?",
+        "Is technical support available for the software, and if so, how do I access it?"
+      ],
+      "responses": [
+        "We recommend checking our website or contacting customer service for up-to-date information on product availability.",
+        "We offer technical support for our software products. You can access support through our website or by contacting customer service."
+      ]
+    }
+  ]
+}
